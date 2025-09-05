@@ -8,4 +8,6 @@ RUN node --version
 COPY . /app
 WORKDIR /app
 
+EXPOSE 5006
+
 CMD ["node", "bundle.cjs"]
